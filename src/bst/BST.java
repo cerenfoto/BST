@@ -23,7 +23,7 @@ public class BST {
             gezilen=gezilen+tree.sayarakArama(rnd.nextInt(2147483647));
         }
         System.out.println("GEzinti Ortalaması:");
-        System.out.println(gezilen/arama_sayisi);
+        System.out.println(tree.arama/arama_sayisi);
 
 //        tree.PreOrderTraverseTree(tree.root);
 
